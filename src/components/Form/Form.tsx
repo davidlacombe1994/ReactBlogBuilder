@@ -1,7 +1,9 @@
 import React, { HTMLAttributes } from 'react';
 
-const Form: React.FC<HTMLAttributes<HTMLDivElement>> = () => {
-  return <div>Hi</div>;
+export type FormProps = HTMLAttributes<HTMLDivElement>;
+
+const Form: React.FC<FormProps> = ({ className }) => {
+  return <div className={className}>Hi</div>;
 };
 
 export default Form;
