@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/davidlacombe1994/ReactBlogBuilder.git"
+    "url": "https://github.com/davidlacombe1994/ReactBlogBuilder.git"
   },
   "author": "",
   "license": "ISC",
