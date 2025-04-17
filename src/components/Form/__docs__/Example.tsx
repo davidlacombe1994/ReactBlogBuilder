@@ -1,12 +1,8 @@
 import React, { FC } from 'react';
 import Form, { FormProps } from '../Form';
 
-const Example: FC<FormProps> = ({ className }) => {
-  return (
-    <div>
-      <Form style={{ color: 'black' }} />
-    </div>
-  );
+const Example: FC<FormProps> = ({ style = { color: 'black' } }) => {
+  return <Form style={style} />;
 };
 
 export default Example;
